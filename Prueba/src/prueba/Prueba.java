@@ -7,7 +7,7 @@ package prueba;
 
 /**
  *
- * @author ALAMEDA
+ * @author Oswal
  */
 public class Prueba {
 
@@ -15,7 +15,11 @@ public class Prueba {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
-    
 }
